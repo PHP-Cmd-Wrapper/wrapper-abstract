@@ -1,6 +1,6 @@
 <?php
 
-namespace CmdWrapper\Wrapper\Wrapper;
+namespace CmdWrapper\Wrapper\Core;
 
 use ArtARTs36\ShellCommand\Executors\ProcOpenExecutor;
 use ArtARTs36\ShellCommand\Interfaces\CommandBuilder;
@@ -37,5 +37,10 @@ abstract class BinWrapper implements Wrapper
         return $this->context->hasDir() ?
             $this->commandBuilder->makeNavigateToDir($this->context->dir, $this->context->bin) :
             $this->commandBuilder->make($this->context->bin);
+    }
+
+    protected function getCommandExecutor(): ShellCommandExecutor
+    {
+        return $this->commandExecutor;
     }
 }

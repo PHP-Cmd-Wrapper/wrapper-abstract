@@ -1,6 +1,6 @@
 <?php
 
-namespace CmdWrapper\Wrapper\Wrapper;
+namespace CmdWrapper\Wrapper\Core;
 
 use ArtARTs36\ShellCommand\Interfaces\ShellCommandExecutor;
 use ArtARTs36\ShellCommand\Interfaces\ShellCommandInterface;
