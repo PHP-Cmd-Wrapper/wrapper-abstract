@@ -1,6 +1,6 @@
 <?php
 
-namespace CmdWrapper\Wrapper\Wrapper;
+namespace CmdWrapper\Wrapper\Core;
 
 class RunContext
 {

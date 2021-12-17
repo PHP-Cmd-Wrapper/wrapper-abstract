@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "CmdWrapper\\Wrapper\\Wrapper\\": "src/"
+            "CmdWrapper\\Wrapper\\Core\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CmdWrapper\\Wrapper\\Wrapper\\Tests\\": "src/"
+            "CmdWrapper\\Wrapper\\Core\\Tests\\": "tests/"
         }
     },
     "authors": [
