@@ -1,6 +1,6 @@
 {
-    "name": "cmd-wrapper/wrapper-name-slug",
-    "description": "Wrapper Template",
+    "name": "cmd-wrapper/wrapper-core",
+    "description": "Wrapper Core",
     "type": "library",
     "require": {
         "php": "^8",
@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "CmdWrapper\\Wrapper\\": "src/"
+            "CmdWrapper\\Wrapper\\Wrapper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CmdWrapper\\Wrapper\\Tests\\": "src/"
+            "CmdWrapper\\Wrapper\\Wrapper\\Tests\\": "src/"
         }
     },
     "authors": [
