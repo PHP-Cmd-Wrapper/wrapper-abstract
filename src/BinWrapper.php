@@ -23,7 +23,10 @@ abstract class BinWrapper implements Wrapper
         //
     }
 
-    public static function local(string $bin = '', string $dir = ''): self
+    /**
+     * Create wrapper instance for local OS.
+     */
+    public static function local(string $bin = '', string $dir = ''): static
     {
         return new static(
             new ShellCommander(),

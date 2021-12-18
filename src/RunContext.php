@@ -11,6 +11,11 @@ class RunContext
         //
     }
 
+    public static function null(): self
+    {
+        return new self('', '');
+    }
+
     public function hasDir(): bool
     {
         return mb_strlen($this->dir) > 0;
