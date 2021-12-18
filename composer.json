@@ -5,7 +5,7 @@
     "require": {
         "php": "^8",
         "artarts36/shell-command": "^2.1.13",
-        "cmd-wrapper/wrapper-contracts": "dev-main"
+        "cmd-wrapper/wrapper-contracts": "^0.1.0"
     },
     "license": "MIT",
     "autoload": {
