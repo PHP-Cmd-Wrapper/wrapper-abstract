@@ -8,12 +8,6 @@
         "cmd-wrapper/wrapper-contracts": "dev-main"
     },
     "license": "MIT",
-    "repositories": [
-        {
-            "url": "https://github.com/PHP-Cmd-Wrapper/wrapper-contracts",
-            "type": "vcs"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "CmdWrapper\\Wrapper\\Core\\": "src/"
